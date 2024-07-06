@@ -10,8 +10,8 @@ const Sidebar = () => {
         <div className="sidebar px-5">
           <div className="profile mb-4 pt-5">
             <Profile />
-            <h4 className='username'>Samantha</h4>
-            <p className='mailid'>samantha@email.com</p>
+            <h4 className='username'>Merlin</h4>
+            <p className='mailid'>dummy@email.com</p>
           </div>
           <ul className="nav flex-column ps-0 py-5">
             <li className="nav-item">

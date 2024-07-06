@@ -12,7 +12,7 @@ const App = () => {
         <div className='col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-12 col-xs-12 bg-dark text-white p-0'>
           <Sidebar />
         </div>
-        <div className='col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-12 col-xs-12'>
+        <div className='col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-12 col-xs-12 p-0'>
           <div className=' bg-white rounded-corner'>
             <Expenses />
           </div>

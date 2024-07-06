@@ -127,35 +127,35 @@ const Expenses = () => {
 
 
             <div className='progressitem'>
-              <div className='progressname'>Food and Drinks<span className='float-end'>872.400</span></div>
+              <div className='progressname'>Food and Drinks<span className='float-end'>30%</span></div>
               <div className="progress mt-2">
       <div className="progress-bar bg-success" role="progressbar" style={{ width: '30%' }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             
             <div className='progressitem'>
-              <div className='progressname'>Shopping<span className='float-end'>872.400</span></div>
+              <div className='progressname'>Shopping<span className='float-end'>10%</span></div>
               <div className="progress mt-2">
       <div className="progress-bar bg-success" role="progressbar" style={{ width: '10%' }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div className='progressitem'>
-              <div className='progressname'>Housing<span className='float-end'>872.400</span></div>
+              <div className='progressname'>Housing<span className='float-end'>20%</span></div>
               <div className="progress mt-2">
       <div className="progress-bar bg-success" role="progressbar" style={{ width: '20%' }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div className='progressitem'>
-              <div className='progressname'>Transportation<span className='float-end'>872.400</span></div>
+              <div className='progressname'>Transportation<span className='float-end'>40%</span></div>
               <div className="progress mt-2">
       <div className="progress-bar bg-success" role="progressbar" style={{ width: '40%' }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div className='progressitem'>
-              <div className='progressname'>Vehicle<span className='float-end'>872.400</span></div>
+              <div className='progressname'>Vehicle<span className='float-end'>70%</span></div>
               <div className="progress mt-2">
                 <div className="progress-bar bg-success" role="progressbar" style={{ width: '70%' }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>

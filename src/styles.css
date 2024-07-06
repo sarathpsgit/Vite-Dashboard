@@ -2,6 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  background: rgb(16 16 16);
 }
 :root {
   font-family: "Poppins", sans-serif;
@@ -149,6 +150,9 @@ button:focus-visible {
 }
 .cust-padd2 {
   padding: 2rem 2rem;
+}
+.rounded-corner-2{
+  border-radius: 1.875rem;
 }
 .people-lsit li {
   list-style-type: none;
