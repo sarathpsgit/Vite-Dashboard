@@ -3,7 +3,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import People from '../assets/images/people.svg';
 import People2 from '../assets/images/people2.svg';
-import People3 from '../assets/images/people2.svg';
+import People3 from '../assets/images/people3.svg';
 import addpeople from '../assets/images/add-people.svg';
 import Threedot from '../assets/images/threeedot.svg';
 import Cart from '../assets/images/cart-icon.svg';
@@ -11,7 +11,6 @@ import Transportation from '../assets/images/transportation-icon.svg';
 import Housing from '../assets/images/Housing-icon.svg';
 import Fooding from '../assets/images/Fooding-icon.svg';
 import Entertainment from '../assets/images/Entertainment-icon.svg';
-import Illus1 from '../assets/images/illus1.svg';
 import Illus2 from '../assets/images/illus2.svg';
 
 import BarGraph from './BarGraph';
@@ -164,11 +163,10 @@ const Expenses = () => {
 
 
             <div className='savemoney mt-5'>
-              <img src={Illus1}></img>
               <img className='float-end' src={Illus2}></img>
-              <div className='savetitle mt-4'>Save more money</div>
-              <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-              <button type="button" className="btn btn-primary w-100">
+              <div className='savetitle'>Save more money</div>
+              <p className='save-text'>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+              <button type="button" className="btn btn-primary w-100 mt-2">
                 View Tips
               </button>
             </div>

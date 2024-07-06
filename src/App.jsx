@@ -1,10 +1,8 @@
 import React from 'react';
 import Sidebar from './components/Sidebar.jsx';
-import Header from './components/Header.jsx';
 import Expenses from './components/Expenses.jsx';
-import Summary from './components/Summary.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-import 'bootstrap/dist/js/bootstrap.bundle.min'; // Import Bootstrap JS
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/js/bootstrap.bundle.min'; 
 import './styles.css';
 
 const App = () => {
@@ -16,9 +14,7 @@ const App = () => {
         </div>
         <div className='col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-12 col-xs-12'>
           <div className=' bg-white rounded-corner'>
-            <Header />
             <Expenses />
-            <Summary />
           </div>
         </div>
       </div>
