@@ -200,6 +200,7 @@ button:focus-visible {
   background: rgb(237 240 246);
   padding: 0.75rem 1.25rem;
   border-radius: 1rem;
+  margin: 100px 0 0 0;
 }
 .savetitle {
   font-size: 1rem;
